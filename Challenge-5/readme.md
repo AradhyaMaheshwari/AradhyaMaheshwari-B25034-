@@ -43,21 +43,19 @@ Even if the image looks normal, CTF methodology requires verifying whether hidde
 -Alpha channel manipulation
 
 ### Result:
+- Found this symbol (美) when used https://imagetotext.online . This is an chinese letter which in english translates to beauty .
+  
+- No hidden payload detected
 
--No hidden payload detected
+- No suspicious compression artifacts
 
--No suspicious compression artifacts
+- No appended data after PNG IEND chunk
 
--No appended data after PNG IEND chunk
-
--No readable strings inside binary
-
-### 📌 Conclusion:
-This is not a steganography-based challenge.
 
 ## 🧠 Step 3: Common Sense
 Since we have tried most of the techniques used for ananlysis of the image and found nothing it means that the answer is of something of common sense . Since , the given image is of IIT MANDI north campus , the most logical answers could be
-
+# SAIC{美}
+# SAIC{BEAUTIFUL_IITMANDI}
 # SAIC{IIT_MANDI}
 # SAIC{NORTH_CAMPUS}
 
