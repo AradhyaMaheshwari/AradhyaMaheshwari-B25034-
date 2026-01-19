@@ -15,3 +15,12 @@ SAIC{REDACTED_FLAG}
 - 'git log --oneline --all' - Displays a concise list of all commits across all branches.
 - 'git fsck --full' - Checks the Git repository for integrity and reveals dangling commits.
 - 'git show <commit_hash>:baked_goods.txt' - Retrieves a deleted file from a specific Git commit.
+
+## Technique Used
+
+### RSA public-key cryptographic algorithm
+The encryption used in this challenge is based on the RSA public-key cryptographic algorithm. In this method, the message is encrypted using a public key consisting of two values, n and e, where n is the product of two prime numbers. Each character of the flag was converted into its ASCII value and then encrypted individually using modular exponentiation. The encrypted output was stored as a list of integers. Since the value of n used in this challenge was relatively small, it could be factorized easily, allowing the private key to be reconstructed and the original message to be decrypted.
+
+### Refrences 
+- https://en.wikipedia.org/wiki/RSA_cryptosystem
+- https://www.geeksforgeeks.org/computer-networks/rsa-algorithm-cryptography/
