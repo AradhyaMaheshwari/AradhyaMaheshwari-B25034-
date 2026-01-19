@@ -15,21 +15,19 @@ The goal of this challenge is to understand:
 
 ## Projects Deployed
 
-### 1. RoyalChess
+### 1. RoyalChess(https://github.com/Sachitbansal/royalchess)
 **Technology Stack**
 - Frontend: Next.js
 - Backend: Node.js (Express)
 - Database: MongoDB
 - Package Manager: pnpm (monorepo)
 
-### 2. STAC Website
+### 2. STAC Website(https://github.com/Sachitbansal/stac-clone)
 **Technology Stack**
 - Frontend: Next.js
 - Backend: Django (Python)
 - Machine Learning Libraries: TensorFlow, PyTorch
 - Package Manager: npm (frontend), pip (backend)
 
----
 
-## Directory Structure
 
