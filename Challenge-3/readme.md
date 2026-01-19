@@ -29,5 +29,9 @@ The goal of this challenge is to understand:
 - Machine Learning Libraries: TensorFlow, PyTorch
 - Package Manager: npm (frontend), pip (backend)
 
+## Environment Setup
 
+- Used **WSL 2 (Ubuntu)** as the Linux environment.
+- Installed and configured **Docker Desktop** on Windows.
+- Enabled **WSL integration** in Docker Desktop settings.
 
