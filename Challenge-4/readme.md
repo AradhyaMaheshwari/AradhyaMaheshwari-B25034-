@@ -6,3 +6,5 @@ The main goal was to inspect the files, analyze the Git repository present in th
 
 SAIC{REDACTED_FLAG}
 
+## Linux-commands Used
+
