@@ -7,4 +7,11 @@ The main goal was to inspect the files, analyze the Git repository present in th
 SAIC{REDACTED_FLAG}
 
 ## Linux-commands Used
-
+- 'ls' - Lists files and directories in the current location.
+- 'pwd" - Prints the current working directory.
+- 'ls -la' - Lists files and directories in the current location.
+- 'tar -xvzf chall6.tar.gz' - Extracts the contents of a gzip-compressed tar archive.
+- 'cat baked_goods.txt' - Displays the encrypted numerical contents of the file.
+- 'git log --oneline --all' - Displays a concise list of all commits across all branches.
+- 'git fsck --full' - Checks the Git repository for integrity and reveals dangling commits.
+- 'git show <commit_hash>:baked_goods.txt' - Retrieves a deleted file from a specific Git commit.
